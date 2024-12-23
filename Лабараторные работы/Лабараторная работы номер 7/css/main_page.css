@@ -1,0 +1,98 @@
+body{
+    background: linear-gradient(black,white);
+}
+
+h1{
+    font-size: 40px;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 840px;
+}
+
+.btn-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 300px;
+    height: 350px;
+    background-color: #ff0000;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.riddles{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-image: url(/img/Загадки-в-темноте.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.coun{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-image: url(/img/coun.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.alco{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-image: url(/img/alco.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fact{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-image: url(/img/fact.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.palindrom{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-image: url(/img/palindrom.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.count-num{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-image: url(/img/count-num.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

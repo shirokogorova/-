@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Калькулятор</title>
+</head>
+<body>
+	<h1>Задание 1-2</h1>
+	<input id="num1" type="number" />
+	<div id="operator_btns">
+	  <button class="btn" id="plus" onclick="op='+'">+</button>
+	  <button id="minus" onclick="op='-'">-</button>
+	  <button id="times" onclick="op='*'">x</button>
+	  <button id="divide" onclick="op='/'">:</button>
+	</div>
+	<input id="num2" type="number"/>
+	<br>
+	<button onclick="func()">Посчитать</button>
+	<p id="result"></p>
+    
+	<h1>Задание 3</h1>
+	<input id="num3" type="number">
+	<button onclick="find_number()">Вывести число</button>
+	<p id="res">Вы получили число:</p>
+	<p id="num4">Ваше число:</p>
+
+	<h1>Задание 4</h1>
+	<button onclick="name_finder()">Нажми на меня</button>
+	<p id="name">Ваше имя:</p>
+	<button onclick="age_finder()">Подсчитать год рождения</button>
+	<p id="age">Ваш возраст:</p>
+    <script src="/JS/script.js"></script>
+</body>
+</html>

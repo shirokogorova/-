@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(black,white);
+}
+.main{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inp{
+    width: 250px;
+    height: 50px;
+}
+
+.btn{
+    width: 200px;
+    height: 45px;
+}
+
+p{
+    font-size: 30px;
+}
